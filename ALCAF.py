@@ -133,7 +133,7 @@ def check_login():
 
 def login_page():
     # Menggunakan path lokal Anda sesuai permintaan
-    image_path = "bgecomiracle.png"
+    image_path = "alcaf.png"
     try:
         with open(image_path, "rb") as img_file:
             encoded = base64.b64encode(img_file.read()).decode()
